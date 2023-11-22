@@ -3,7 +3,7 @@ import Buisness from './Buisness'
 import Button from './Button'
 import Clients from './Clients'
 import CTA from './CTA'
-import Feedback from './Feedback'
+import FeedbackCard from './FeedbackCard'
 import Footer from './Footer'
 import GetStarted from './GetStarted'
 import Hero from './Hero'
@@ -18,7 +18,7 @@ export {
     Button,
     Clients,
     CTA,
-    Feedback,
+    FeedbackCard,
     Footer,
     GetStarted,
     Hero,

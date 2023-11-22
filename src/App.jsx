@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Billing,Buisness,Button,Clients,CTA,Feedback,Footer,GetStarted,Hero,Navbar,Stats,Testimonials,CardDeal} from './components';
+import {Billing,Buisness,Button,Clients,CTA,FeedbackCard,Footer,GetStarted,Hero,Navbar,Stats,Testimonials,CardDeal} from './components';
 import styles from './style'
 
 
@@ -22,14 +22,14 @@ function App() {
 
       <div className={`${styles.flexStart} ${styles.paddingX} bg-primary`}>
         <div className={`${styles.boxWidth}`}>
-          {/* <Stats/>
+          <Stats/>
           <Buisness/>
           <Billing/>
           <CardDeal/>
           <Testimonials/>
           <Clients/>
           <CTA/>
-          <Footer/>x */}
+          <Footer/>
         </div>
       </div>
 
